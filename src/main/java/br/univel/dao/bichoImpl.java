@@ -50,6 +50,7 @@ public class bichoImpl implements bichoDao {
 		return bicho;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public ArrayList<Bicho> pegarTodos() {
 
